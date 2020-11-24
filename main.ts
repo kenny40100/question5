@@ -10,10 +10,11 @@ while (x > 0) {
     basic.showNumber(x)
     x += -1
 }
+basic.clearScreen()
 if (y >= 50) {
-    basic.showString("win")
+    basic.showString("WIN")
 } else {
-    basic.showString("lose")
+    basic.showString("LOSE")
 }
 basic.forever(function () {
 	
